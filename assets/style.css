@@ -1,0 +1,83 @@
+/*
+    I det här dokumentet finns all styling för projektet
+*/
+
+/* Här är styling som gäller för hela sidan */
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, "sans serif";
+  color: #ff8901;
+  margin: 0;
+}
+
+/* Här finns all styling för knappen */
+.button {
+  background-color: white;
+  color: #ff8901;
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+h1 {
+  margin: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #b17213;
+}
+
+/* Här är styling för about-me sektionen, den breda "boarden" med bilden i */
+.about-me {
+  background-color: #ff8901;
+  padding: 150px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+.about-me img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Här är styling för greatness sektionen */
+.greatness {
+  padding: 30px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.skills{
+  padding: 30px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Här är styling för footern på sidan */
+footer {
+  background-color: #fbcfcd;
+  padding: 50px 300px;  
+  
+  color: #b17213;
+  
+}
