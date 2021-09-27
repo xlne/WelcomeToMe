@@ -1,6 +1,43 @@
 /*
     I det här dokumentet finns all styling för projektet
 */
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: #b17213;  
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  place-items: end;
+}
+
+.navbar ul{
+  color:#fbcfcd;
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none; 
+  margin: 25px 25px 25px 0;  
+}
+
+.navbar ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fbcfcd;
+}
+
+.skills ul{
+  display: inline-table;
+  place-items: left;
+  list-style-type: none;  
+  margin: 25px 25px 25px 0;  
+}
 
 /* Här är styling som gäller för hela sidan */
 body {
@@ -44,6 +81,10 @@ p {
   color: #b17213;
 }
 
+ul{
+  color: #b17213;
+}
+
 /* Här är styling för about-me sektionen, den breda "boarden" med bilden i */
 .about-me {
   background-color: #ff8901;
@@ -62,7 +103,7 @@ p {
 
 /* Här är styling för greatness sektionen */
 .greatness {
-  padding: 30px 30px;
+  padding: 35px 30px;
   width: 60%;
   margin: 0 auto;
 }
@@ -73,11 +114,36 @@ p {
   margin: 0 auto;
 }
 
+.div-cv-button{
+  text-align: center;
+}
+
+.cv-button {
+  background-color: #b17213;
+  color: #ff8901;
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cv-button:hover{
+  background-color: #ff8901;
+  color: #b17213;
+}
+
 /* Här är styling för footern på sidan */
 footer {
   background-color: #fbcfcd;
-  padding: 50px 300px;  
-  
+  padding: 240px 300px;    
+  margin: 0;
+  width: auto;
   color: #b17213;
-  
+  text-align: center;
+}
+
+a top{
+  text-decoration: none;
 }

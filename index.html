@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Stylesheet-länken nedan går till en CSS-fil, i den finns all styling för sidan.-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <link rel='icon' href='assets/smile.ico' type='image/x-icon'/>
-    <title>About Linnéa Netzell</title>
-  </head>
+  <!-- Stylesheet-länken nedan går till en CSS-fil, i den finns all styling för sidan.-->
 
-  <body>
-    <!-- Sidan är indelad i sektioner – så kallade <section> taggar. De funkar ungefär på samma 
+  <link rel="stylesheet" href="assets/style.css" type="text/css" />
+  <link rel='icon' href='assets/smile.ico' type='image/x-icon' />
+  <title>About Linnéa Netzell</title>
+</head>
+
+<body>
+  <a id="top"></a>
+  <!-- Sidan är indelad i sektioner – så kallade <section> taggar. De funkar ungefär på samma 
       sätt som div-taggen. För att ska kunna se vilken kod som hör till vilken del av sidan. -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#greatness">About me</a></li>
+      <li><a href="https://github.com/xlne">Projects</a></li>
+      <li><a href="#contact-info">Contact</a></li>
+      <li><a href="https://www.reddit.com/r/ProgrammerHumor/">Get a laugh!</a></li>
+    </ul>
+  </div>
 
-    <section class="about-me">
+  <section class="about-me">
 
-      <!--Här är en bild på mig, en text och en knapp som länkas till LinkedIn -->
-      <img src="assets/linnea.png" alt="picture of Linnéa" />
-      <h1>Hellu! It's me, Linnéa!</h1>
-      <h2>I’m a .NET-developer student, awesome and a cat lover.</h2>      
-      <a class="button" href="https://www.linkedin.com/in/linneanetzell/">Make contact</a>
-      
-    </section>
+    <!--Här är en bild på mig, en text och en knapp som länkas till LinkedIn -->
+    <img src="assets/linnea.png" alt="picture of Linnéa" />
+    <h1>Hellu! It's me, Linnéa!</h1>
+    <h2>I’m a .NET-developer student, awesome and a cat lover.</h2>
+    <a class="button" href="https://www.linkedin.com/in/linneanetzell/">Make contact</a>
 
-    <!-- Koden som beskriver topp 3 om mig själv -->
-    <section class="greatness">
-      <h2>Top 3 things that I'm great at:</h2>
+  </section>
 
-      <h3>1. Creativeness</h3>
-      <p>
-        Constantly wants to create new things, improve my clothes or furniture in some way. Loves to make my own clothes and accessories. Are you stuck 
-        with your thoughts? Let me be your 
-      </p>
+  <!-- Koden som beskriver topp 3 om mig själv -->
+  <section class="greatness" id="greatness">
+    <h2>Top 3 things that I'm great at:</h2>
 
-      <h3>2. Coding</h3>
-      <p>
-        Love coding. Be creative. Concentrate. Be awesome. 
-      </p>
+    <h3>1. Creativeness</h3>
+    <p>
+      Constantly wants to create new things, improve my clothes or furniture in some way. Loves to make my own clothes
+      and accessories.
+    </p>
 
-      <h3>3. Studying</h3>
-      <p>
-        I have studied several times, which make me a superb student. Hopefully 
-        this will be the last time and that I have found what is the right career for me.  
-        My curiosity keeps me going and drives me towards new things to learn. 
-      </p>
-    </section>
+    <h3>2. Coding</h3>
+    <p>
+      Love coding. Be creative. Concentrate. Be awesome.
+    </p>
 
-    <section class="skills">
-      <h2>The skills you are looking for:</h2>
-      <!--Ev. göra taggar som man kan klicka på och komma vidare till projekt-->
-      <ul>
-        <li>C#</li>
-        <li>.NET</li>
-        <li>Entity Framework</li>
-        <li>SQL</li>
-      </ul>
-      <h3> </h3>
+    <h3>3. Hobbies</h3>
+    <p>
+      I have several hobbies to choose from in my sparetime. My curiosity keeps me going and drives me towards new
+      things to learn. Some of the things I do is:
+    <ul>
+      <li>Chrochet</li>
+      <li>Hiking</li>
+      <li>3D-printing</li>
+    </ul>
+    </p>
+  </section>
 
-    </section>
+  <section class="skills">
+    <h2>Is this what you are looking for?</h2>
+    <!--Ev. göra taggar som man kan klicka på och komma vidare till projekt-->
+    <ul>
+      <li>C#</li>
+      <li>.NET</li>
+      <li>Entity Framework</li>
+      <li>MS SQL</li>
+      <li>MS Office</li>
+      <li>Visual Studio 19</li>
+      <li>Visual Studio Code</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Net-framework</li>
+      <li>Entity Framework Core</li>
+      <li>MongoDB</li>
+      <li>GitHub</li>
+      <li>Confluence</li>
+    </ul>
+  </section>
 
-    <!--Det här är en tag som används för att göra en footer. -->
-    <footer>
-      <h2>Good things to know about me:</h2>
-      <p>I live in Gothenburg and loves to hike. <br>If you want to get in contact with me I propose you choose some of the below: </p>
-      <br>
-      <b>Linkan:</b> <a style="color:chocolate" href="https://www.linkedin.com/in/linneanetzell/">https://www.linkedin.com/in/linneanetzell/</a> 
-      <br>
-      <b>Phone:</b> 0707-070707
-      <br>
-      <b>Mail:</b> <a style="color:chocolate" href="mailto:linnea.netzell@hotmail.com">linnea.netzell@hotmail.com</a>  
+  <!--Det här är en tag som används för att göra en footer. -->
+  <footer>    
+    <h2 id="contact-info">Contact me!</h2>
+    
+    <br>
+    <b>LinkedIn:</b> <a style="color:chocolate"
+      href="https://www.linkedin.com/in/linneanetzell/">https://www.linkedin.com/in/linneanetzell/</a>
+    <br>
+    <br>
+    <b>Mail:</b> <a style="color:chocolate" href="mailto:linnea.netzell@hotmail.com">linnea.netzell@hotmail.com</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>  
+    <p class="div-cv-button">
+      <a class="cv-button" href="assets/CV_Linnéa_2021.pdf" target="_blank">Here's my CV!</a>
+    </p>
+    <br>
+    <br>
+    <br> 
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
 
-
-
-    </footer>
-  </body>
 </html>
