@@ -32,6 +32,27 @@ html{
   margin-left: 10px;
 }
 
+.navbar-button{
+  background-color: var(--lightpink);
+  color: var(--brown);
+  padding: 9px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 550;
+  border: none;
+  place-items:start !important;
+}
+
+.navbar-button:hover{
+  background-color: var(--orange);
+  color: var(--cremewhite);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
 .navbar ul li a{
   text-decoration: none;
   color: var(--lightpink);
@@ -101,6 +122,7 @@ ul{
   padding: 150px 30px;
   color: var(--cremewhite);
   text-align: center;
+  width: 100%;
 }
 
 /* Här är styling för bilden som ligger i about-me sektionen */
@@ -157,7 +179,7 @@ ul{
 footer {
   background-color: var(--lightpink);
   padding: 150px 30px;  
-  width: auto;
+  width: 100%;
   color: var(--brown);
   text-align: center;
 }
