@@ -12,6 +12,7 @@ html{
   width: 100%;
   display: grid;
   place-items: end;
+  position: fixed;
 }
 
 .navbar ul{
@@ -137,8 +138,7 @@ ul{
 /* Här är styling för footern på sidan */
 footer {
   background-color: #fbcfcd;
-  padding: 240px 300px;    
-  margin: 0;
+  padding: 150px 30px;  
   width: auto;
   color: #b17213;
   text-align: center;
