@@ -1,0 +1,221 @@
+:root {
+  /* Default colors */
+  --bordercolor: #b17213;
+  --firstsection: #ff8901;
+  --middlesection: #fffbf1;
+  --footercolor: #fbcfcd;
+  --textcolor: chocolate;
+}
+
+.theme-normal {
+  /* Normal colors */
+  --bordercolor: #a08c76;
+  --firstsection: #d4caba;
+  --middlesection: #f3f0ed;
+  --footercolor: #f5eded;
+  --textcolor: rgb(194, 131, 85);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: var(--bordercolor);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  place-items: end;
+  position: fixed;
+}
+
+.navbar ul {
+  color: var(--footercolor);
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 25px 25px 25px 0;
+}
+
+.navbar ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.navbar-button {
+  background-color: var(--footercolor);
+  color: var(--bordercolor);
+  padding: 9px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 550;
+  border: none;
+  place-items: start !important;
+}
+
+.navbar-button:hover {
+  background-color: var(--firstsection);
+  color: var(--middlesection);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--footercolor);
+}
+
+/* The styling for the whole page */
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, "sans serif";
+  color: var(--firstsection);
+  margin: 0;
+}
+
+/* Button styling */
+
+.button {
+  background-color: var(--middlesection);
+  color: var(--firstsection);
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: var(--bordercolor);
+  color: var(--middlesection);
+}
+
+/* Styling for the headers and text */
+
+h1 {
+  margin: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--bordercolor);
+}
+
+ul {
+  color: var(--bordercolor);
+}
+
+/* Styling for the about-me section, with the picture in it */
+
+.about-me {
+  background-color: var(--firstsection);
+  padding: 150px 30px;
+  color: var(--middlesection);
+  text-align: center;
+  width: 100%;
+}
+
+.about-me img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Greatness section. */
+
+.greatness {
+  padding: 55px 30px 0 30px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--middlesection);
+}
+
+.middle {
+  margin: 0 auto;
+  padding: 0px 30px;
+  width: 60%;
+}
+
+.skills {
+  padding: 30px 30px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--middlesection);
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 35px 0 35px;
+}
+
+.skills ul li {
+  display: table-cell;
+  flex-grow: 1;
+  flex-basis: auto;
+  text-align: center;
+}
+
+.skills li+li::before {
+  content: " | ";
+}
+
+.div-cv-button {
+  text-align: center;
+}
+
+.cv-button {
+  background-color: var(--bordercolor);
+  color: var(--firstsection);
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cv-button:hover {
+  background-color: var(--firstsection);
+  color: var(--bordercolor);
+}
+
+/* Styling for the footer */
+
+footer {
+  background-color: var(--footercolor);
+  padding: 150px 30px;
+  width: 100%;
+  color: var(--bordercolor);
+  text-align: center;
+}
+
+.text {
+  color: var(--textcolor);
+}
+
+a top {
+  text-decoration: none;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-default">
 
 <head>
   <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
 
   <!-- Stylesheet-länken nedan går till en CSS-fil, i den finns all styling för sidan.-->
 
-  <link rel="stylesheet" href="assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="styles/style.css" type="text/css" />
   <link rel='icon' href='assets/smile.ico' type='image/x-icon' />
   <title>About Linnéa Netzell</title>
 </head>
@@ -18,7 +18,7 @@
   <div class="navbar">
     <ul>
       <li>
-        <button class="navbar-button pointer" >You like normal?</button>
+        <button class="navbar-button pointer" onclick="toggleTheme()">You like normal?</button>
       </li>
       <li><a href="#greatness">About me</a></li>
       <li><a href="https://github.com/xlne">Projects</a></li>
@@ -39,23 +39,26 @@
 
   <!-- Koden som beskriver topp 3 om mig själv -->
   <section class="greatness" id="greatness">
-    <div class="middle">
+    <div class="middle text">
       <h2>Top 3 things that I'm great at:</h2>
 
       <h3>1. Creativeness</h3>
       <p>
-        I love to create and to be creative. I spend time sewing new clothes, making adjustments to my trousers or chrocheting lace to an old blouse. I also easily find new ways of solving problems, much thanks to my hobbies I think. 
+        I love to create and to be creative. I spend time sewing new clothes, making adjustments to my trousers or
+        chrocheting lace to an old blouse. I also easily find new ways of solving problems, much thanks to my hobbies I
+        think.
       </p>
 
       <h3>2. Structure</h3>
       <p>
         How can you be a coder and not love structure? I love to have things in order, to organize, to see things
-        clearly. When I work, no matter with what, I make sure to be structured. 
+        clearly. When I work, no matter with what, I make sure to be structured.
       </p>
 
       <h3>3. Curiosity</h3>
       <p>
-        Besides coding, I am curious about other things. I have several hobbies in my sparetime. My curiosity keeps me going and drives me towards new things to learn. Some of the things I do is:
+        Besides coding, I am curious about other things. I have several hobbies in my sparetime. My curiosity keeps me
+        going and drives me towards new things to learn. Some of the things I do is:
       <ul>
         <li>Chrochet</li>
         <li>Hiking</li>
@@ -66,25 +69,25 @@
   </section>
 
   <section class="skills">
-    <section class="middle">
-      <h2>Is this what you are looking for?</h2>
+    <section class="middle text">
+      <h2>Some of my skills: </h2>
       <!--Ev. göra taggar som man kan klicka på och komma vidare till projekt-->
       <ul>
-        <li>C#</li>
-        <li>.NET</li>
-        <li>Entity Framework</li>
-        <li>MS SQL</li>
-        <li>MS Office</li>
-        <li>Visual Studio 19</li>
-        <li>Visual Studio Code</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Net-framework</li>
-        <li>Entity Framework Core</li>
-        <li>MongoDB</li>
-        <li>GitHub</li>
-        <li>Confluence</li>
+        <li><b>C#</b></li>
+        <li><b>.NET</b></li>
+        <li><b>Entity Framework</b></li>
+        <li><b>MS SQL</b></li>
+        <li><b>MS Office</b></li>
+        <li><b>Visual Studio 19</b></li>
+        <li><b>Visual Studio Code</b></li>
+        <li><b>HTML</b></li>
+        <li><b>CSS</b></li>
+        <li><b>JavaScript</b></li>
+        <li><b>Net-framework</b></li>
+        <li><b>Entity Framework Core</b></li>
+        <li><b>MongoDB</b></li>
+        <li><b>GitHub</b></li>
+        <li><b>Confluence</b></li>
       </ul>
     </section>
   </section>
@@ -95,11 +98,11 @@
       <h2 id="contact-info">Contact me!</h2>
 
       <br>
-      <b>LinkedIn:</b> <a style="color:chocolate"
+      <b>LinkedIn:</b> <a class="text"
         href="https://www.linkedin.com/in/linneanetzell/">https://www.linkedin.com/in/linneanetzell/</a>
       <br>
       <br>
-      <b>Mail:</b> <a style="color:chocolate" href="mailto:linnea.netzell@hotmail.com">linnea.netzell@hotmail.com</a>
+      <b>Mail:</b> <a class="text" href="mailto:linnea.netzell@hotmail.com">linnea.netzell@hotmail.com</a>
       <br>
       <br>
       <br>
@@ -114,6 +117,7 @@
       <a href="#top">Back to top</a>
     </section>
   </footer>
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
